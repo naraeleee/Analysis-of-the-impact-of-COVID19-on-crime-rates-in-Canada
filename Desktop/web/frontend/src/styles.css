@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+  }
+  
+  #home-screen,
+  #quiz-screen,
+  #learning-screen,
+  #text-to-sign-screen,
+  #sign-to-text-screen {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  

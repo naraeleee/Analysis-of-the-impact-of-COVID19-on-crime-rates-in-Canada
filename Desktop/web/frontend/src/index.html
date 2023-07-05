@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SLearning</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to SLearning</h1>
+  <div id="home-screen">
+    <button onclick="startQuiz()">Alphabet Quiz</button>
+    <button onclick="startLearning()">Learn Alphabets</button>
+    <button onclick="textToSign()">Text To Sign</button>
+    <button onclick="signToText()">Sign to Text</button>
+  </div>
+
+  <div id="quiz-screen" style="display: none;">
+    <!-- Quiz screen content goes here -->
+    <button onclick="backToHome()">Back</button>
+  </div>
+
+  <div id="learning-screen" style="display: none;">
+    <!-- Learning screen content goes here -->
+    <button onclick="backToHome()">Back</button>
+  </div>
+
+  <div id="text-to-sign-screen" style="display: none;">
+    <!-- Text to sign screen content goes here -->
+    <button onclick="backToHome()">Back</button>
+  </div>
+
+  <div id="sign-to-text-screen" style="display: none;">
+    <!-- Sign to text screen content goes here -->
+    <button onclick="backToHome()">Back</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
